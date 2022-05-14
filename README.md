@@ -38,7 +38,7 @@ XDU traffic light signal control system based on <a href="https://www.python.org
    命令行展示效果截图：
 
    <h1 align="center">
-       <img src="https://i.jpg.dog/file/jpg-dog/17365b45dd6d8c26a48ac3f5010e5d55.png" alt="XDU-tlsc" width="1080">
+       <img src="https://i.jpg.dog/file/jpg-dog/17365b45dd6d8c26a48ac3f5010e5d55.png" alt="XDU-tlsc" width="720">
    </h1>
 
    
