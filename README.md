@@ -20,17 +20,57 @@ XDU traffic light signal control system based on <a href="https://www.python.org
 2. 输出展示方案
 
    采用 <a href="https://www.python.org/">Python</a> 语言的图像处理标准库 <a href="https://pillow.readthedocs.io/ ">Pillow</a> 制作 GIF 进行动画展示，并同时设置命令行展示方法，可以使用Python命令调用命令行进行红绿灯模拟演示。
+   
+   GIF动画展示效果：
+   
+   <h1 align="center">
+       <img src="https://media.giphy.com/media/ghnrK5Wug2P9QzVnO8/giphy.gif" alt="XDU-tlsc" width="600">
+   </h1>
 
  
 
 ## 二、测试方案
 
-1. ...
-2. ...
+1. 将每一帧动画输入在 png_result 文件夹下，对每一帧动画进行检查，确保对应无误。
+
+2. 分别使用 GIF 和 命令行方式进行展示，发现展示效果正常，红绿灯转换及时长控制均符合预期，对应无误。
+
+   命令行展示效果截图：
+
+   <h1 align="center">
+       <img src="https://i.jpg.dog/file/jpg-dog/17365b45dd6d8c26a48ac3f5010e5d55.png" alt="XDU-tlsc" width="1080">
+   </h1>
+
+   
+   
 
  
 
 ## 三、使用说明
 
-1. ...
-2. ...
+1. 安装 Python 3 并勾选 Add Python to PATH 选项。
+
+2. 使用 cmd 执行命令
+
+   ~~~~
+   pip install Pillow
+   ~~~~
+
+   安装运行环境依赖。
+
+3. 在项目文件夹下使用 cmd 执行命令
+
+   ~~~~
+   Python main.py
+   ~~~~
+
+   生成 GIF 展示效果，并生成 png 文件，GIF 保存在项目根目录下， png文件保存在 png_result 文件夹下。
+
+4. 在项目文件夹下使用 cmd 执行命令
+
+   ~~~~
+   Python cmdtest.py
+   ~~~~
+
+   启用命令行展示程序，该指令将在 cmd 窗口显示红绿灯转换效果。 
+
