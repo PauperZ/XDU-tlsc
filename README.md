@@ -24,7 +24,7 @@ XDU traffic light signal control system based on <a href="https://www.python.org
    GIF动画展示效果：
    
    <h1 align="center">
-       <img src="https://media.giphy.com/media/ghnrK5Wug2P9QzVnO8/giphy.gif" alt="XDU-tlsc" width="600">
+       <img src="https://media.giphy.com/media/fCwnv0GJWLcmnDiRxW/giphy.gif" alt="XDU-tlsc" width="600">
    </h1>
 
  
@@ -40,7 +40,7 @@ XDU traffic light signal control system based on <a href="https://www.python.org
    <h1 align="center">
        <img src="https://i.jpg.dog/file/jpg-dog/17365b45dd6d8c26a48ac3f5010e5d55.png" alt="XDU-tlsc" width="1080">
    </h1>
-
+   
    
    
 

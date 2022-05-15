@@ -103,11 +103,11 @@ if __name__ == '__main__':
     framelist = []
     for i in range(0, 140):
         if i < 20:
-            frame = creat_frame(0, i, 60 - i)
+            frame = creat_frame(0, 20 - i, 60 - i)
             framelist.append(frame)
             frame.save("./png_results/{}.png".format(i))
         elif i < 60:
-            frame = creat_frame(1, i - 20, 60 - i)
+            frame = creat_frame(1, 60 - i, 60 - i)
             framelist.append(frame)
             frame.save("./png_results/{}.png".format(i))
         else:
